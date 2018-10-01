@@ -2,7 +2,7 @@ EESchema Schematic File Version 4
 LIBS:MCUBoard-cache
 EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -154,8 +154,6 @@ F 3 "" H 1800 2950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1800 2950 1800 3100
-Wire Wire Line
-	1800 3100 1600 3100
 $Comp
 L Device:R R?
 U 1 1 5BB06B48
@@ -332,7 +330,7 @@ L Device:C C?
 U 1 1 5BB09D63
 P 4150 5850
 F 0 "C?" H 4265 5896 50  0000 L CNN
-F 1 "104" H 4265 5805 50  0000 L CNN
+F 1 "100nF" H 4265 5805 50  0000 L CNN
 F 2 "" H 4188 5700 50  0001 C CNN
 F 3 "~" H 4150 5850 50  0001 C CNN
 	1    4150 5850
@@ -365,7 +363,7 @@ L Device:C C?
 U 1 1 5BB0A2A4
 P 4700 5850
 F 0 "C?" H 4815 5896 50  0000 L CNN
-F 1 "104" H 4815 5805 50  0000 L CNN
+F 1 "100nF" H 4815 5805 50  0000 L CNN
 F 2 "" H 4738 5700 50  0001 C CNN
 F 3 "~" H 4700 5850 50  0001 C CNN
 	1    4700 5850
@@ -398,7 +396,7 @@ L Device:C C?
 U 1 1 5BB0A742
 P 5650 5850
 F 0 "C?" H 5765 5896 50  0000 L CNN
-F 1 "104" H 5765 5805 50  0000 L CNN
+F 1 "100nF" H 5765 5805 50  0000 L CNN
 F 2 "" H 5688 5700 50  0001 C CNN
 F 3 "~" H 5650 5850 50  0001 C CNN
 	1    5650 5850
@@ -431,7 +429,7 @@ L Device:C C?
 U 1 1 5BB0ABE0
 P 6100 5850
 F 0 "C?" H 6215 5896 50  0000 L CNN
-F 1 "104" H 6215 5805 50  0000 L CNN
+F 1 "100nF" H 6215 5805 50  0000 L CNN
 F 2 "" H 6138 5700 50  0001 C CNN
 F 3 "~" H 6100 5850 50  0001 C CNN
 	1    6100 5850
@@ -867,4 +865,124 @@ F 3 "" H 7250 3750 50  0001 C CNN
 	1    7250 3750
 	1    0    0    -1  
 $EndComp
+Text Label 6500 3200 0    50   ~ 0
+PA0
+Text Label 6500 3300 0    50   ~ 0
+PA1
+Text Label 6500 3400 0    50   ~ 0
+PA2
+Text Label 6500 3500 0    50   ~ 0
+PA3
+Text Label 6500 3600 0    50   ~ 0
+PA4
+Text Label 6500 3700 0    50   ~ 0
+PA5
+Text Label 6500 3800 0    50   ~ 0
+PA6
+Text Label 6500 3900 0    50   ~ 0
+PA7
+Text Label 6500 4000 0    50   ~ 0
+PA8
+Text Label 6500 4100 0    50   ~ 0
+PA9
+Text Label 6500 4200 0    50   ~ 0
+PA10
+Text Label 6500 4300 0    50   ~ 0
+PA11
+Text Label 6500 4400 0    50   ~ 0
+PA12
+Text Label 6500 4500 0    50   ~ 0
+SWIO
+Text Label 6500 4600 0    50   ~ 0
+SWCLK
+Text Label 6500 4700 0    50   ~ 0
+PA15
+Text Label 4400 2100 0    50   ~ 0
+NRST
+Text Label 4400 2300 0    50   ~ 0
+BOOT0
+Text Label 4400 2500 0    50   ~ 0
+PD0
+Text Label 4400 2600 0    50   ~ 0
+PD1
+Text Label 4400 2800 0    50   ~ 0
+PC13
+Text Label 4400 2900 0    50   ~ 0
+PC14
+Text Label 4400 3000 0    50   ~ 0
+PC15
+Text Label 4400 3200 0    50   ~ 0
+PB0
+Text Label 4400 3300 0    50   ~ 0
+PB1
+Text Label 4400 3400 0    50   ~ 0
+BOOT1
+Text Label 4400 3500 0    50   ~ 0
+PB3
+Text Label 4400 3600 0    50   ~ 0
+PB4
+Text Label 4400 3700 0    50   ~ 0
+PB5
+Text Label 4400 3800 0    50   ~ 0
+PB6
+Text Label 4400 3900 0    50   ~ 0
+PB7
+Text Label 4400 4000 0    50   ~ 0
+PB8
+Text Label 4400 4100 0    50   ~ 0
+PB9
+Text Label 4400 4200 0    50   ~ 0
+PB10
+Text Label 4400 4300 0    50   ~ 0
+PB11
+Text Label 4400 4400 0    50   ~ 0
+PB12
+Text Label 4400 4500 0    50   ~ 0
+PB13
+Text Label 4400 4600 0    50   ~ 0
+PB14
+Text Label 4400 4700 0    50   ~ 0
+PB15
+Wire Wire Line
+	1600 3100 1800 3100
+Wire Wire Line
+	1800 3100 2050 3100
+Connection ~ 1800 3100
+Text Label 2050 3100 0    50   ~ 0
+VCC5V
+Wire Wire Line
+	9950 3750 10200 3750
+Connection ~ 9950 3750
+Text Label 10200 3750 0    50   ~ 0
+VCC3V3
+Text Label 5300 1600 1    50   ~ 0
+VBAT
+Text Label 5400 1600 1    50   ~ 0
+VCC3V3
+Text Label 5500 1600 1    50   ~ 0
+VCC3V3
+Text Label 5600 1600 1    50   ~ 0
+VCC3V3
+Text Label 5700 1600 1    50   ~ 0
+VCC3V3
+$Comp
+L power:GND #PWR?
+U 1 1 5BB4C12D
+P 5300 5200
+F 0 "#PWR?" H 5300 4950 50  0001 C CNN
+F 1 "GND" H 5305 5027 50  0000 C CNN
+F 2 "" H 5300 5200 50  0001 C CNN
+F 3 "" H 5300 5200 50  0001 C CNN
+	1    5300 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5200 5400 5200
+Connection ~ 5300 5200
+Connection ~ 5400 5200
+Wire Wire Line
+	5400 5200 5500 5200
+Connection ~ 5500 5200
+Wire Wire Line
+	5500 5200 5600 5200
 $EndSCHEMATC
