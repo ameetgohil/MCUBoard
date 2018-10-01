@@ -702,4 +702,66 @@ F 3 "~" H 1900 6200 50  0001 C CNN
 	1    1900 6200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C?
+U 1 1 5BB1DB6B
+P 750 6250
+F 0 "C?" H 865 6296 50  0000 L CNN
+F 1 "104" H 865 6205 50  0000 L CNN
+F 2 "" H 788 6100 50  0001 C CNN
+F 3 "~" H 750 6250 50  0001 C CNN
+	1    750  6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  6100 1150 6100
+Wire Wire Line
+	750  6400 1150 6400
+Wire Wire Line
+	1200 6200 1700 6200
+Wire Wire Line
+	1200 6300 1700 6300
+Text Label 1200 6200 0    50   ~ 0
+SWDIO
+Text Label 1200 6300 0    50   ~ 0
+SWDCLK
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5BB2C7FE
+P 1150 6100
+F 0 "#PWR?" H 1150 5950 50  0001 C CNN
+F 1 "+3.3V" H 1165 6273 50  0000 C CNN
+F 2 "" H 1150 6100 50  0001 C CNN
+F 3 "" H 1150 6100 50  0001 C CNN
+	1    1150 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1150 6100
+Wire Wire Line
+	1150 6100 1700 6100
+$Comp
+L power:GND #PWR?
+U 1 1 5BB2C83D
+P 1150 6400
+F 0 "#PWR?" H 1150 6150 50  0001 C CNN
+F 1 "GND" H 1155 6227 50  0000 C CNN
+F 2 "" H 1150 6400 50  0001 C CNN
+F 3 "" H 1150 6400 50  0001 C CNN
+	1    1150 6400
+	1    0    0    -1  
+$EndComp
+Connection ~ 1150 6400
+Wire Wire Line
+	1150 6400 1700 6400
+$Comp
+L Regulator_Linear:LT1962-3.3 U?
+U 1 1 5BB1DF66
+P 8250 3950
+F 0 "U?" H 8250 4417 50  0000 C CNN
+F 1 "LT1962-3.3" H 8250 4326 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8250 3600 50  0001 C CNN
+F 3 "http://cds.linear.com/docs/en/datasheet/1962fb.pdf" H 8250 3400 50  0001 C CNN
+	1    8250 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
