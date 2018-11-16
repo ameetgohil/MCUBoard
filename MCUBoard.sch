@@ -1133,111 +1133,56 @@ VCC5V
 $Comp
 L Amplifier_Operational:LM324A U1
 U 1 1 5BC1EB54
-P 2050 7400
-F 0 "U1" H 2050 7767 50  0000 C CNN
-F 1 "LM324A" H 2050 7676 50  0000 C CNN
-F 2 "" H 2000 7500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2100 7600 50  0001 C CNN
-	1    2050 7400
+P 2250 7150
+F 0 "U1" H 2250 7517 50  0000 C CNN
+F 1 "LM324A" H 2250 7426 50  0000 C CNN
+F 2 "" H 2200 7250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2300 7350 50  0001 C CNN
+	1    2250 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:LM324A U1
 U 2 1 5BC1ED71
-P 2050 8100
-F 0 "U1" H 2050 8467 50  0000 C CNN
-F 1 "LM324A" H 2050 8376 50  0000 C CNN
-F 2 "" H 2000 8200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2100 8300 50  0001 C CNN
-	2    2050 8100
+P 2250 7850
+F 0 "U1" H 2400 8100 50  0000 C CNN
+F 1 "LM324A" H 2450 8000 50  0000 C CNN
+F 2 "" H 2200 7950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2300 8050 50  0001 C CNN
+	2    2250 7850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:LM324A U1
 U 3 1 5BC1EE40
-P 2050 8700
-F 0 "U1" H 2050 9067 50  0000 C CNN
-F 1 "LM324A" H 2050 8976 50  0000 C CNN
-F 2 "" H 2000 8800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2100 8900 50  0001 C CNN
-	3    2050 8700
+P 2250 8600
+F 0 "U1" H 2400 8850 50  0000 C CNN
+F 1 "LM324A" H 2450 8750 50  0000 C CNN
+F 2 "" H 2200 8700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2300 8800 50  0001 C CNN
+	3    2250 8600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:LM324A U1
 U 4 1 5BC1EF35
-P 2050 9400
-F 0 "U1" H 2050 9767 50  0000 C CNN
-F 1 "LM324A" H 2050 9676 50  0000 C CNN
-F 2 "" H 2000 9500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2100 9600 50  0001 C CNN
-	4    2050 9400
+P 2250 9400
+F 0 "U1" H 2400 9650 50  0000 C CNN
+F 1 "LM324A" H 2450 9550 50  0000 C CNN
+F 2 "" H 2200 9500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2300 9600 50  0001 C CNN
+	4    2250 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:LM324A U1
 U 5 1 5BC1F048
-P 2250 9950
-F 0 "U1" V 1925 9950 50  0000 C CNN
-F 1 "LM324A" V 2016 9950 50  0000 C CNN
-F 2 "" H 2200 10050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2300 10150 50  0001 C CNN
-	5    2250 9950
-	0    1    1    0   
-$EndComp
-$Comp
-L Amplifier_Operational:LM324A U2
-U 1 1 5BC25054
-P 4900 7300
-F 0 "U2" H 4900 7667 50  0000 C CNN
-F 1 "LM324A" H 4900 7576 50  0000 C CNN
-F 2 "" H 4850 7400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4950 7500 50  0001 C CNN
-	1    4900 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324A U2
-U 2 1 5BC2505B
-P 4900 8000
-F 0 "U2" H 4900 8367 50  0000 C CNN
-F 1 "LM324A" H 4900 8276 50  0000 C CNN
-F 2 "" H 4850 8100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4950 8200 50  0001 C CNN
-	2    4900 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324A U2
-U 3 1 5BC25062
-P 4900 8600
-F 0 "U2" H 4900 8967 50  0000 C CNN
-F 1 "LM324A" H 4900 8876 50  0000 C CNN
-F 2 "" H 4850 8700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4950 8800 50  0001 C CNN
-	3    4900 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324A U2
-U 4 1 5BC25069
-P 4900 9300
-F 0 "U2" H 4900 9667 50  0000 C CNN
-F 1 "LM324A" H 4900 9576 50  0000 C CNN
-F 2 "" H 4850 9400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4950 9500 50  0001 C CNN
-	4    4900 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM324A U2
-U 5 1 5BC25070
-P 5100 9850
-F 0 "U2" V 4775 9850 50  0000 C CNN
-F 1 "LM324A" V 4866 9850 50  0000 C CNN
-F 2 "" H 5050 9950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5150 10050 50  0001 C CNN
-	5    5100 9850
+P 2450 10200
+F 0 "U1" V 2125 10200 50  0000 C CNN
+F 1 "LM324A" V 2216 10200 50  0000 C CNN
+F 2 "" H 2400 10300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2500 10400 50  0001 C CNN
+	5    2450 10200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1410,226 +1355,417 @@ Text Label 12200 4000 0    50   ~ 0
 VCC5V
 $Comp
 L Device:R R?
-U 1 1 5BC3F09C
-P 11400 5500
-F 0 "R?" V 11500 5500 50  0000 C CNN
-F 1 "10K" V 11400 5500 50  0000 C CNN
-F 2 "" V 11330 5500 50  0001 C CNN
-F 3 "~" H 11400 5500 50  0001 C CNN
-	1    11400 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:BSS138 Q?
-U 1 1 5BC3F0A3
-P 11800 5650
-F 0 "Q?" V 12050 5650 50  0000 C CNN
-F 1 "BSS138" V 12141 5650 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 12000 5575 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 11800 5650 50  0001 L CNN
-	1    11800 5650
-	0    1    1    0   
+U 1 1 5BEEEDBA
+P 1600 7250
+F 0 "R?" V 1500 7250 50  0000 C CNN
+F 1 "510" V 1716 7250 50  0000 C CNN
+F 2 "" V 1530 7250 50  0001 C CNN
+F 3 "~" H 1600 7250 50  0001 C CNN
+	1    1600 7250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R?
-U 1 1 5BC3F0AA
-P 12200 5500
-F 0 "R?" V 12300 5500 50  0000 C CNN
-F 1 "10K" V 12200 5500 50  0000 C CNN
-F 2 "" V 12130 5500 50  0001 C CNN
-F 3 "~" H 12200 5500 50  0001 C CNN
-	1    12200 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11400 5150 11400 5250
-Wire Wire Line
-	11400 5650 11400 5750
-Wire Wire Line
-	11400 5750 11600 5750
-Wire Wire Line
-	12000 5750 12200 5750
-Wire Wire Line
-	12200 5750 12200 5650
-Wire Wire Line
-	11400 5250 11800 5250
-Wire Wire Line
-	11800 5250 11800 5450
-Connection ~ 11400 5250
-Wire Wire Line
-	11400 5250 11400 5350
-Wire Wire Line
-	12200 5350 12200 5150
-Text Label 11400 5150 0    50   ~ 0
-VCC3V3
-Text Label 12200 5150 0    50   ~ 0
-VCC5V
-$Comp
-L Device:R R?
-U 1 1 5BC46B3D
-P 11400 6650
-F 0 "R?" V 11500 6650 50  0000 C CNN
-F 1 "10K" V 11400 6650 50  0000 C CNN
-F 2 "" V 11330 6650 50  0001 C CNN
-F 3 "~" H 11400 6650 50  0001 C CNN
-	1    11400 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:BSS138 Q?
-U 1 1 5BC46B44
-P 11800 6800
-F 0 "Q?" V 12050 6800 50  0000 C CNN
-F 1 "BSS138" V 12141 6800 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 12000 6725 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 11800 6800 50  0001 L CNN
-	1    11800 6800
-	0    1    1    0   
+U 1 1 5BEEEED2
+P 2350 7500
+F 0 "R?" V 2557 7500 50  0000 C CNN
+F 1 "510" V 2466 7500 50  0000 C CNN
+F 2 "" V 2280 7500 50  0001 C CNN
+F 3 "~" H 2350 7500 50  0001 C CNN
+	1    2350 7500
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R?
-U 1 1 5BC46B4B
-P 12200 6650
-F 0 "R?" V 12300 6650 50  0000 C CNN
-F 1 "10K" V 12200 6650 50  0000 C CNN
-F 2 "" V 12130 6650 50  0001 C CNN
-F 3 "~" H 12200 6650 50  0001 C CNN
-	1    12200 6650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11400 6300 11400 6400
-Wire Wire Line
-	11400 6800 11400 6900
-Wire Wire Line
-	11400 6900 11600 6900
-Wire Wire Line
-	12000 6900 12200 6900
-Wire Wire Line
-	12200 6900 12200 6800
-Wire Wire Line
-	11400 6400 11800 6400
-Wire Wire Line
-	11800 6400 11800 6600
-Connection ~ 11400 6400
-Wire Wire Line
-	11400 6400 11400 6500
-Wire Wire Line
-	12200 6500 12200 6300
-Text Label 11400 6300 0    50   ~ 0
-VCC3V3
-Text Label 12200 6300 0    50   ~ 0
-VCC5V
-$Comp
-L Device:R R?
-U 1 1 5BC4EF20
-P 11400 7800
-F 0 "R?" V 11500 7800 50  0000 C CNN
-F 1 "10K" V 11400 7800 50  0000 C CNN
-F 2 "" V 11330 7800 50  0001 C CNN
-F 3 "~" H 11400 7800 50  0001 C CNN
-	1    11400 7800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:BSS138 Q?
-U 1 1 5BC4EF27
-P 11800 7950
-F 0 "Q?" V 12050 7950 50  0000 C CNN
-F 1 "BSS138" V 12141 7950 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 12000 7875 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 11800 7950 50  0001 L CNN
-	1    11800 7950
-	0    1    1    0   
+U 1 1 5BEEFB42
+P 1600 7950
+F 0 "R?" V 1500 7950 50  0000 C CNN
+F 1 "510" V 1716 7950 50  0000 C CNN
+F 2 "" V 1530 7950 50  0001 C CNN
+F 3 "~" H 1600 7950 50  0001 C CNN
+	1    1600 7950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R?
-U 1 1 5BC4EF2E
-P 12200 7800
-F 0 "R?" V 12300 7800 50  0000 C CNN
-F 1 "10K" V 12200 7800 50  0000 C CNN
-F 2 "" V 12130 7800 50  0001 C CNN
-F 3 "~" H 12200 7800 50  0001 C CNN
-	1    12200 7800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11400 7450 11400 7550
-Wire Wire Line
-	11400 7950 11400 8050
-Wire Wire Line
-	11400 8050 11600 8050
-Wire Wire Line
-	12000 8050 12200 8050
-Wire Wire Line
-	12200 8050 12200 7950
-Wire Wire Line
-	11400 7550 11800 7550
-Wire Wire Line
-	11800 7550 11800 7750
-Connection ~ 11400 7550
-Wire Wire Line
-	11400 7550 11400 7650
-Wire Wire Line
-	12200 7650 12200 7450
-Text Label 11400 7450 0    50   ~ 0
-VCC3V3
-Text Label 12200 7450 0    50   ~ 0
-VCC5V
-$Comp
-L Device:R R?
-U 1 1 5BC57CCA
-P 11400 8850
-F 0 "R?" V 11500 8850 50  0000 C CNN
-F 1 "10K" V 11400 8850 50  0000 C CNN
-F 2 "" V 11330 8850 50  0001 C CNN
-F 3 "~" H 11400 8850 50  0001 C CNN
-	1    11400 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:BSS138 Q?
-U 1 1 5BC57CD1
-P 11800 9000
-F 0 "Q?" V 12050 9000 50  0000 C CNN
-F 1 "BSS138" V 12141 9000 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 12000 8925 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 11800 9000 50  0001 L CNN
-	1    11800 9000
-	0    1    1    0   
+U 1 1 5BEEFBF6
+P 2350 8200
+F 0 "R?" V 2550 8200 50  0000 C CNN
+F 1 "510" V 2466 8200 50  0000 C CNN
+F 2 "" V 2280 8200 50  0001 C CNN
+F 3 "~" H 2350 8200 50  0001 C CNN
+	1    2350 8200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R?
-U 1 1 5BC57CD8
-P 12200 8850
-F 0 "R?" V 12300 8850 50  0000 C CNN
-F 1 "10K" V 12200 8850 50  0000 C CNN
-F 2 "" V 12130 8850 50  0001 C CNN
-F 3 "~" H 12200 8850 50  0001 C CNN
-	1    12200 8850
+U 1 1 5BEEFCAE
+P 1600 8700
+F 0 "R?" V 1500 8700 50  0000 C CNN
+F 1 "510" V 1716 8700 50  0000 C CNN
+F 2 "" V 1530 8700 50  0001 C CNN
+F 3 "~" H 1600 8700 50  0001 C CNN
+	1    1600 8700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BEEFD6A
+P 2350 8950
+F 0 "R?" V 2550 8950 50  0000 C CNN
+F 1 "510" V 2466 8950 50  0000 C CNN
+F 2 "" V 2280 8950 50  0001 C CNN
+F 3 "~" H 2350 8950 50  0001 C CNN
+	1    2350 8950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BEF02C5
+P 1600 9500
+F 0 "R?" V 1500 9500 50  0000 C CNN
+F 1 "510" V 1716 9500 50  0000 C CNN
+F 2 "" V 1530 9500 50  0001 C CNN
+F 3 "~" H 1600 9500 50  0001 C CNN
+	1    1600 9500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BEF0387
+P 2350 9750
+F 0 "R?" V 2550 9750 50  0000 C CNN
+F 1 "510" V 2466 9750 50  0000 C CNN
+F 2 "" V 2280 9750 50  0001 C CNN
+F 3 "~" H 2350 9750 50  0001 C CNN
+	1    2350 9750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BEF045F
+P 1300 7250
+F 0 "#PWR?" H 1300 7000 50  0001 C CNN
+F 1 "GND" H 1305 7077 50  0000 C CNN
+F 2 "" H 1300 7250 50  0001 C CNN
+F 3 "" H 1300 7250 50  0001 C CNN
+	1    1300 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BEF04FE
+P 1300 7950
+F 0 "#PWR?" H 1300 7700 50  0001 C CNN
+F 1 "GND" H 1305 7777 50  0000 C CNN
+F 2 "" H 1300 7950 50  0001 C CNN
+F 3 "" H 1300 7950 50  0001 C CNN
+	1    1300 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BEF059D
+P 1300 8700
+F 0 "#PWR?" H 1300 8450 50  0001 C CNN
+F 1 "GND" H 1305 8527 50  0000 C CNN
+F 2 "" H 1300 8700 50  0001 C CNN
+F 3 "" H 1300 8700 50  0001 C CNN
+	1    1300 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BEF063C
+P 1300 9500
+F 0 "#PWR?" H 1300 9250 50  0001 C CNN
+F 1 "GND" H 1305 9327 50  0000 C CNN
+F 2 "" H 1300 9500 50  0001 C CNN
+F 3 "" H 1300 9500 50  0001 C CNN
+	1    1300 9500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11400 8500 11400 8600
+	1300 7250 1450 7250
 Wire Wire Line
-	11400 9000 11400 9100
+	1750 7250 1900 7250
 Wire Wire Line
-	11400 9100 11600 9100
+	1300 7950 1450 7950
 Wire Wire Line
-	12000 9100 12200 9100
+	1750 7950 1900 7950
 Wire Wire Line
-	12200 9100 12200 9000
+	1900 7250 1900 7500
 Wire Wire Line
-	11400 8600 11800 8600
+	1900 7500 2200 7500
+Connection ~ 1900 7250
 Wire Wire Line
-	11800 8600 11800 8800
-Connection ~ 11400 8600
+	1900 7250 1950 7250
 Wire Wire Line
-	11400 8600 11400 8700
+	2500 7500 2650 7500
 Wire Wire Line
-	12200 8700 12200 8500
-Text Label 11400 8500 0    50   ~ 0
-VCC3V3
-Text Label 12200 8500 0    50   ~ 0
-VCC5V
+	2650 7500 2650 7150
+Wire Wire Line
+	2650 7150 2550 7150
+Wire Wire Line
+	1900 7950 1900 8200
+Wire Wire Line
+	1900 8200 2200 8200
+Connection ~ 1900 7950
+Wire Wire Line
+	1900 7950 1950 7950
+Wire Wire Line
+	2500 8200 2650 8200
+Wire Wire Line
+	2650 8200 2650 7850
+Wire Wire Line
+	2650 7850 2550 7850
+Wire Wire Line
+	1300 8700 1450 8700
+Wire Wire Line
+	1750 8700 1900 8700
+Wire Wire Line
+	1900 8700 1900 8950
+Wire Wire Line
+	1900 8950 2200 8950
+Connection ~ 1900 8700
+Wire Wire Line
+	1900 8700 1950 8700
+Wire Wire Line
+	2500 8950 2650 8950
+Wire Wire Line
+	2650 8950 2650 8600
+Wire Wire Line
+	2650 8600 2550 8600
+Wire Wire Line
+	1300 9500 1450 9500
+Wire Wire Line
+	1750 9500 1900 9500
+Wire Wire Line
+	1900 9500 1900 9750
+Wire Wire Line
+	1900 9750 2200 9750
+Connection ~ 1900 9500
+Wire Wire Line
+	1900 9500 1950 9500
+Wire Wire Line
+	2500 9750 2650 9750
+Wire Wire Line
+	2650 9750 2650 9400
+Wire Wire Line
+	2650 9400 2550 9400
+Wire Wire Line
+	900  7050 1950 7050
+Wire Wire Line
+	900  7150 1200 7150
+Wire Wire Line
+	1200 7150 1200 7750
+Wire Wire Line
+	1200 7750 1950 7750
+Wire Wire Line
+	900  7250 1100 7250
+Wire Wire Line
+	1100 7250 1100 8500
+Wire Wire Line
+	1100 8500 1950 8500
+Wire Wire Line
+	900  7350 1000 7350
+Wire Wire Line
+	1000 7350 1000 9300
+Wire Wire Line
+	1000 9300 1950 9300
+Wire Wire Line
+	2650 7150 3300 7150
+Connection ~ 2650 7150
+Wire Wire Line
+	2650 7850 2800 7850
+Wire Wire Line
+	2800 7850 2800 7250
+Wire Wire Line
+	2800 7250 3300 7250
+Connection ~ 2650 7850
+Wire Wire Line
+	2650 8600 2900 8600
+Wire Wire Line
+	2900 8600 2900 7350
+Wire Wire Line
+	2900 7350 3300 7350
+Connection ~ 2650 8600
+Wire Wire Line
+	2650 9400 3000 9400
+Wire Wire Line
+	3000 9400 3000 7450
+Wire Wire Line
+	3000 7450 3300 7450
+Connection ~ 2650 9400
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C22B030
+P 700 7150
+F 0 "J?" H 620 7467 50  0000 C CNN
+F 1 "Conn_01x04" H 620 7376 50  0000 C CNN
+F 2 "" H 700 7150 50  0001 C CNN
+F 3 "~" H 700 7150 50  0001 C CNN
+	1    700  7150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C2B2C19
+P 3500 7250
+F 0 "J?" H 3580 7242 50  0000 L CNN
+F 1 "Conn_01x04" H 3580 7151 50  0000 L CNN
+F 2 "" H 3500 7250 50  0001 C CNN
+F 3 "~" H 3500 7250 50  0001 C CNN
+	1    3500 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x16 J?
+U 1 1 5C2DB8B1
+P 5000 7800
+F 0 "J?" H 5080 7792 50  0000 L CNN
+F 1 "Conn_01x16" H 5080 7701 50  0000 L CNN
+F 2 "" H 5000 7800 50  0001 C CNN
+F 3 "~" H 5000 7800 50  0001 C CNN
+	1    5000 7800
+	1    0    0    -1  
+$EndComp
+Text Label 4800 7100 2    50   ~ 0
+PA0
+Text Label 4800 7200 2    50   ~ 0
+PA1
+Text Label 4800 7300 2    50   ~ 0
+PA2
+Text Label 4800 7400 2    50   ~ 0
+PA3
+Text Label 4800 7500 2    50   ~ 0
+PA4
+Text Label 4800 7600 2    50   ~ 0
+PA5
+Text Label 4800 7700 2    50   ~ 0
+PA6
+Text Label 4800 7800 2    50   ~ 0
+PA7
+Text Label 4800 7900 2    50   ~ 0
+PA8
+Text Label 4800 8000 2    50   ~ 0
+PA9
+Text Label 4800 8100 2    50   ~ 0
+PA10
+Text Label 4800 8200 2    50   ~ 0
+PA11
+Text Label 4800 8300 2    50   ~ 0
+PA12
+Text Label 4800 8400 2    50   ~ 0
+SWIO
+Text Label 4800 8500 2    50   ~ 0
+SWCLK
+Text Label 4800 8600 2    50   ~ 0
+PA15
+Text Label 5800 7100 2    50   ~ 0
+PB0
+Text Label 5800 7200 2    50   ~ 0
+PB1
+Text Label 5800 7300 2    50   ~ 0
+BOOT1
+Text Label 5800 7400 2    50   ~ 0
+PB3
+Text Label 5800 7500 2    50   ~ 0
+PB4
+Text Label 5800 7600 2    50   ~ 0
+PB5
+Text Label 5800 7700 2    50   ~ 0
+PB6
+Text Label 5800 7800 2    50   ~ 0
+PB7
+Text Label 5800 7900 2    50   ~ 0
+PB8
+Text Label 5800 8000 2    50   ~ 0
+PB9
+Text Label 5800 8100 2    50   ~ 0
+PB10
+Text Label 5800 8200 2    50   ~ 0
+PB11
+Text Label 5800 8300 2    50   ~ 0
+PB12
+Text Label 5800 8400 2    50   ~ 0
+PB13
+Text Label 5800 8500 2    50   ~ 0
+PB14
+Text Label 5800 8600 2    50   ~ 0
+PB15
+Wire Wire Line
+	11200 1400 11400 1400
+Connection ~ 11400 1400
+Connection ~ 12200 1400
+Wire Wire Line
+	11200 2400 11400 2400
+Connection ~ 11400 2400
+Connection ~ 12200 2400
+Wire Wire Line
+	11200 3500 11400 3500
+Connection ~ 11400 3500
+Connection ~ 12200 3500
+Wire Wire Line
+	11200 4600 11400 4600
+Connection ~ 11400 4600
+Connection ~ 12200 4600
+Text Label 11200 1400 0    50   ~ 0
+LV0
+Text Label 11200 2400 0    50   ~ 0
+LV1
+Text Label 11200 3500 0    50   ~ 0
+LV2
+Text Label 11200 4600 0    50   ~ 0
+LV3
+$Comp
+L Connector_Generic:Conn_02x16_Top_Bottom J?
+U 1 1 5C45AB2C
+P 6000 7800
+F 0 "J?" H 6050 8717 50  0000 C CNN
+F 1 "Conn_02x16_Top_Bottom" H 6050 8626 50  0000 C CNN
+F 2 "" H 6000 7800 50  0001 C CNN
+F 3 "~" H 6000 7800 50  0001 C CNN
+	1    6000 7800
+	1    0    0    -1  
+$EndComp
+Text Label 6300 7500 0    50   ~ 0
+LV0
+Text Label 6300 7600 0    50   ~ 0
+LV1
+Text Label 6300 7700 0    50   ~ 0
+LV2
+Text Label 6300 7800 0    50   ~ 0
+LV3
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5C47AE99
+P 13000 1500
+F 0 "J?" H 13080 1492 50  0000 L CNN
+F 1 "Conn_01x04" H 13080 1401 50  0000 L CNN
+F 2 "" H 13000 1500 50  0001 C CNN
+F 3 "~" H 13000 1500 50  0001 C CNN
+	1    13000 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 1400 12800 1400
+Wire Wire Line
+	12800 1500 12500 1500
+Wire Wire Line
+	12500 1500 12500 2400
+Wire Wire Line
+	12200 2400 12500 2400
+Wire Wire Line
+	12600 3500 12600 1600
+Wire Wire Line
+	12600 1600 12800 1600
+Wire Wire Line
+	12200 3500 12600 3500
+Wire Wire Line
+	12700 4600 12700 1700
+Wire Wire Line
+	12700 1700 12800 1700
+Wire Wire Line
+	12200 4600 12700 4600
 $EndSCHEMATC
