@@ -1899,12 +1899,12 @@ F 3 "~" H 4100 1200 50  0001 C CNN
 $EndComp
 Connection ~ 4100 1200
 $Comp
-L Connector_Generic:Conn_02x16_Odd_Even J?
+L Connector_Generic:Conn_02x16_Odd_Even J8
 U 1 1 5C857FFA
 P 6000 7800
-F 0 "J?" H 6050 8717 50  0000 C CNN
+F 0 "J8" H 6050 8717 50  0000 C CNN
 F 1 "Conn_02x16_Odd_Even" H 6050 8626 50  0000 C CNN
-F 2 "" H 6000 7800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H 6000 7800 50  0001 C CNN
 F 3 "~" H 6000 7800 50  0001 C CNN
 	1    6000 7800
 	1    0    0    -1  

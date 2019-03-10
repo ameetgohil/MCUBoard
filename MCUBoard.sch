@@ -1718,13 +1718,13 @@ Text Label 11200 3500 0    50   ~ 0
 LV2
 Text Label 11200 4600 0    50   ~ 0
 LV3
-Text Label 6300 7500 0    50   ~ 0
+Text Label 7650 7650 2    50   ~ 0
 LV0
-Text Label 6300 7600 0    50   ~ 0
+Text Label 7650 7750 2    50   ~ 0
 LV1
-Text Label 6300 7700 0    50   ~ 0
+Text Label 7650 7850 2    50   ~ 0
 LV2
-Text Label 6300 7800 0    50   ~ 0
+Text Label 7650 7950 2    50   ~ 0
 LV3
 $Comp
 L Connector_Generic:Conn_01x04 J9
@@ -1849,20 +1849,10 @@ Wire Wire Line
 Connection ~ 3800 1600
 Text Label 3550 1600 0    50   ~ 0
 NRST
-Text Label 6300 7100 0    50   ~ 0
+Text Label 5800 8700 2    50   ~ 0
 PD0
-Text Label 6300 7200 0    50   ~ 0
+Text Label 5800 8800 2    50   ~ 0
 PD1
-NoConn ~ 6300 7300
-NoConn ~ 6300 7400
-NoConn ~ 6300 7900
-NoConn ~ 6300 8000
-NoConn ~ 6300 8100
-NoConn ~ 6300 8200
-NoConn ~ 6300 8300
-NoConn ~ 6300 8400
-NoConn ~ 6300 8500
-NoConn ~ 6300 8600
 NoConn ~ 3750 900 
 $Comp
 L power:+5V #PWR0130
@@ -1899,14 +1889,25 @@ F 3 "~" H 4100 1200 50  0001 C CNN
 $EndComp
 Connection ~ 4100 1200
 $Comp
-L Connector_Generic:Conn_02x16_Odd_Even J8
-U 1 1 5C857FFA
-P 6000 7800
-F 0 "J8" H 6050 8717 50  0000 C CNN
-F 1 "Conn_02x16_Odd_Even" H 6050 8626 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H 6000 7800 50  0001 C CNN
-F 3 "~" H 6000 7800 50  0001 C CNN
-	1    6000 7800
+L Connector_Generic:Conn_01x18 J8
+U 1 1 5C85ACFE
+P 6000 7900
+F 0 "J8" H 6080 7892 50  0000 L CNN
+F 1 "Conn_01x18" H 6080 7801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 6000 7900 50  0001 C CNN
+F 3 "~" H 6000 7900 50  0001 C CNN
+	1    6000 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J10
+U 1 1 5C85AF00
+P 7300 7750
+F 0 "J10" H 7380 7742 50  0000 L CNN
+F 1 "Conn_01x04" H 7380 7651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7300 7750 50  0001 C CNN
+F 3 "~" H 7300 7750 50  0001 C CNN
+	1    7300 7750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
